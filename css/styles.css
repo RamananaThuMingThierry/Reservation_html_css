@@ -68,6 +68,107 @@ header .logo a span{
 .menu li a{
   text-decoration: none;
   color:#fff;
-  font-size: 15px;
+  font-size: 14px;
 }
 
+.btn-reservation{
+  text-decoration: none;
+  border: 2px solid #29d9d5;
+  color:#29d9d5;
+  padding: 5px 20px;
+  font-size: 14px;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+.btn-reservation:hover{
+  background-color: #29d9d5;
+  color:#fff;
+}
+
+#home{
+  background:url("../images/img1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+#home h2{
+  font-size: 45px;
+  margin-top: 10px;
+  -webkit-text-stroke:#fff 0.02px;
+  color:transparent;
+  text-transform: lowercase;
+}
+
+#home p{
+  color:#fff;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+#home h4{
+  font-size: 50px;
+  color:#fff;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.home-btn{
+  margin-bottom: 20px;
+}
+
+.find_strip{
+  background-color: #222;
+  padding: 20px;
+  width: 70%;
+  position: absolute;
+  bottom: -50px;
+}
+
+.find_strip form{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.find_strip form div, .find_strip form input[type="submit"]{
+   display: flex;
+   flex-direction: column;
+   width: 20%;
+}
+
+.find_strip form input{
+  padding: 5px 20px;
+  background-color: transparent;
+  border: 1px solid #29d9d5;
+  outline: 0;
+  width: 100%;
+  font-size: 13px;
+  color:#fff;
+}
+
+.find_strip form input[type="submit"]{
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color:#29d9d5;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.find_strip form input[type="submit"]:hover{
+  box-shadow: 0 0 10px #29d9d5; 
+}
+
+.find_strip form label{
+  color: #999;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
